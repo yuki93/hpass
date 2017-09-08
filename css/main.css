@@ -1,0 +1,39 @@
+body {
+  color: #2c3e50;
+  width: 180px;
+  padding: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+code {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+div.group {
+  margin-bottom: 12px;
+}
+
+div#output-code {
+  background-color: #ffffcc;
+  text-align: center;
+}

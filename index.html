@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="js/jquery@3.2.1.js"></script>
+    <script src="js/crypto-js@3.1.9-1.js"></script>
+    <script src="js/tldjs@2.1.0.js"></script>
+    <link href="css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="main">
+      <form id="dummy" action="dummy">
+      <div class="group">
+        <label>Key</label>
+        <input id="key-input" type="password"/>
+      </div>
+      <div class="group">
+        <label>Domain</label>
+        <input id="domain-input" type="text"/>
+      </div>
+      <div class="group">
+        <button type="submit">HKDF</button>
+      </div>
+      </form>
+      <div id="output-code">
+        <code>--------</code>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
